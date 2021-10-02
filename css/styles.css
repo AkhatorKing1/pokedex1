@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-wrapper {
+    border: 1px solid black;
+    display: flex;
+    width: 200px;
+    flex-wrap: wrap
+}
+
+.grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    flex: 50px 1;
+    /* background: red; */
+    border: 1px solid black;
+}
